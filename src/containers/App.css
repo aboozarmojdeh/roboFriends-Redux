@@ -1,0 +1,51 @@
+
+
+.wave {
+  opacity: .6;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  background: blue;
+  width: 500px;
+  height: 500px;
+  margin-left: -250px;
+  margin-top: -250px;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+  z-index: -1;
+}
+
+.wave.-three {
+  animation: drift 5000ms infinite linear;
+  background: white;
+}
+
+.wave.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: .1;
+  background: blue;
+}
+
+
+
+
+@keyframes drift {
+  from { transform: rotate(0deg); }
+  from { transform: rotate(360deg); }
+}
+
+
+@font-face {
+    font-family: 'SEGA LOGO FONT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+    }
+    
+    h1 {
+      font-family: 'SEGA LOGO FONT';
+      font-weight: 200;
+      color: #0c9e99;
+    }
+

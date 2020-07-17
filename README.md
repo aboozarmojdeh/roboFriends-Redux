@@ -1,1 +1,1 @@
-# roboFriends-Redux
+# Robo Friends React-Redux App
